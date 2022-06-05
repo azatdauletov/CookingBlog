@@ -4,6 +4,7 @@
 <form method="post">
     {% csrf_token %}
    <input class="btn btn-primary" type="submit" value="Yes">
+    <a class="btn" href="{% url 'home' %}" role="buttnon">Cancel</a>
 
 </form>
 {% endblock %}
